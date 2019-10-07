@@ -6,6 +6,7 @@ $stringLengthCount = $stringLength;
 for($i=0; $i< $stringLength ; $i++){
 	if($sen[$i] != $sen[$stringLengthCount]){
 		$ans = "Not";
+		break;
 	}else{
 		$ans = "";
 	}
