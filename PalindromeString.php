@@ -15,5 +15,6 @@ $sen = "Given string '$sen' is $ans Palindrome";
 return $sen; 
 }   
 // keep this function call here  
-echo PalindromeString("abbcbba");  
+echo PalindromeString("abbcbba");
+
 ?>
