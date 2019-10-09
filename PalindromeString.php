@@ -13,7 +13,8 @@ for($i=0; $i< $stringLength ; $i++){
 }
 $sen = "Given string '$sen' is $ans Palindrome";
 return $sen; 
-}   
+}
+
 // keep this function call here  
 echo PalindromeString("abbcbba");
 
