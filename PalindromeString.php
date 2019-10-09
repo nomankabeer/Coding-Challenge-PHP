@@ -17,5 +17,4 @@ return $sen;
 
 // keep this function call here  
 echo PalindromeString("abbcbba");
-
 ?>
