@@ -1,5 +1,7 @@
 <?php
-    
+    /*
+    Find Highest And Second Highest Number From Unsorted Array
+    */
 function FindHighestAndSecondHighestNumberFromUnsortedArray($numbers)
     {
         $highest_number = 0;
@@ -16,6 +18,6 @@ function FindHighestAndSecondHighestNumberFromUnsortedArray($numbers)
         return "Highest number = ".$highest_number . ' And second highest number = ' . $second_highest."\n";
     }
     
-echo FindHighestAndSecondHighestNumberFromUnsortedArray([2,3,5,1,22,4,5,6]);
+echo FindHighestAndSecondHighestNumberFromUnsortedArray([2,3,5,1,22,4,5,6]); // 22 6
 
 ?>
