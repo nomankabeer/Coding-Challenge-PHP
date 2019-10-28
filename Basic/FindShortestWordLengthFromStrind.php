@@ -1,4 +1,12 @@
 <?php
+/**
+ * User: Noman Kabeer
+ * Date: 29-Oct-2019
+ * Time: 1:12 AM
+ * Probles:
+ * Find shortest word length from strin
+ * And return that shortest word length
+ */
 function findShort($str){
 $str = explode(' ' , $str);
 $shortest_word_len = strlen($str[0]);
