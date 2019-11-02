@@ -33,16 +33,15 @@ function searchInsert($nums, $target)
             }
         }
     } else {
+        if ($target < $nums[0]) {
+            return 0;
+        }
         foreach ($nums as $key => $num) {
             if ($target > $num && $nums[$key + 1] > $target) {
                 return $key + 1;
             }
         }
-        if ($target < $nums[0]) {
-            return 0;
-        } else {
-            return count($nums);
-        }
+        return count($nums);
     }
 }
 $nums = [1,3,5,6];
